@@ -18,12 +18,16 @@ export default {
 <!-- QUI HTML -->
 <template>
     <section>
-        <div class="row debug-row" >
-            <div class="col-5 debug">
-                <h3> Our recent <strong>web designs</strong> & some examples of past <strong>projects</strong></h3>
+        <div class="row justify-content-between mx-2 debug-row" >
+            <div class="col-6 p-5 m-0 debug">
+                <hr class="d-inline-block me-2 rounded bg-success opacity-100" />
+                <hr class="separator d-inline-block rounded bg-success opacity-100" />
+                <h3 class="p-3  display-5 "> Our recent  <strong>web designs</strong> & <br>some examples of <br> past <strong>projects</strong></h3>
+                <hr class="d-inline-block me-2 rounded bg-success opacity-100" />
+                <hr class="separator d-inline-block rounded bg-success opacity-100" />
             </div>
-            <div class="col-7 debug">
-                <p>Far Far away, behind the word mountains, Far From the countries Vokalie end Consonentia, there live the
+            <div class="col-6 p-5 d-flex flex-column-reverse p-0 m-0 debug ">
+                <p class="px-0 ">Far Far away, behind the word mountains, Far From the countries Vokalie end Consonentia, there live the
                 blind texts. Seperated they live in Bookmarksgrove righi the coesi: OF the Semantics, è large languege
                 ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountèins, far From the
                 countries Vokalia and Consonentia, there live the blind texts. Separated they live in Bookmarksgrave.</p>
@@ -74,9 +78,6 @@ export default {
 
 <!-- QUI CSS -->
 <style scoped>
-.debug{
-    border: 1px dashed crimson;
-}
 .debug-row{
     border: 1px solid black;
 }
@@ -85,6 +86,18 @@ button{
 }
 span{
     color: white;
+}
+
+hr {
+    width: 0.8rem;
+    padding: 0.2rem 0;
+    border: 0;
+}
+
+.separator {
+    width: 3rem;
+    padding: 0.2rem 0;
+    border: 0;
 }
 
 button {
