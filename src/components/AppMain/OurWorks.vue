@@ -78,9 +78,7 @@ export default {
 
 <!-- QUI CSS -->
 <style scoped>
-.debug-row{
-    border: 1px solid black;
-}
+
 button{
     background-color: rgb(134, 206, 117);  
 }
