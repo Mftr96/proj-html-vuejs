@@ -12,9 +12,7 @@ const ilMioOggettone = {
         "../../assets\photo\images\aa9a4539-PQGJ7HU-1024x1024.jpg",
         "../../assets\photo\images\cody-davis-253928-unsplash-1024x1024.jpg"
 
-    ],
-
-   
+    ],  
 };
 
 const iMieiDati = reactive(ilMioOggettone);

@@ -5,17 +5,22 @@ export default{
         return{
             store,
             //link foto per immagini card
-            urlPhoto:[
-                "../../assets/photo/images/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg",
-                "../../assets/photo/images/Businessman-at-the-desk-in-his-office-resting--1024x768.jpg",
-                "../../assets/photo/images/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg",
-            ]
+            UrlPhoto:[
+                {percorso:"../../assets/photo/images/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg",
+                listitem:"Marketing Ideas"},
+
+                {percorso:"../../assets/photo/images/Businessman-at-the-desk-in-his-office-resting--1024x768.jpg",
+                listitem:"Rest During Hour Works",},
+                {percorso:"../../assets/photo/images/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg",
+                listitem:"Develop Your Startup Idea"
+                }
+            ],
         }
     },
     methods:
     {
         getImg(path) {
-            let risultato = new URL('../../assets/photo/ + path, import.meta.url');
+            let risultato = new URL(`../../assets/photo/` +path, import.meta.url);
             return risultato.href;
         },
 
@@ -28,30 +33,23 @@ export default{
 <template>
     <section id="Latest-News">
        <div class="container w-50 display-1">
-            <h2 class="w-100 display-5 ">Latest News And Our <strong class="d-inline-block">Blog</strong></h2>
+            <h2 class="w-100 mt-5 display-5 ">Latest News And Our <strong class="d-inline-block">Blog</strong></h2>
             <div class="my-0 mx-auto w-25">
                 <hr class="d-inline-block me-2 rounded bg-success opacity-100" />
                 <hr class="separator d-inline-block rounded bg-success opacity-100"/>
             </div>
        </div>
-       <div class="row">
-            <div class="photo-box col-4 overflow-hidden rounded border border-1 border-black">
-                <img class=" w-100" src="../../assets\photo\images\serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="">
+       <div class="row mb-5">
+            <div v-for="foto in UrlPhoto" class="photo-box col-4 overflow-hidden rounded ">
+                <img class=" w-100" :src="getImg(foto.percorso)" alt="">
                 <div class="info p-2 z-1 rounded bg-white   w-75 my-0 mx-auto">
                    <p>May 24.2018<i class="fa-solid fa-circle"></i> Alex</p>
                    <ul>
-                    <li>Marketing Ideas</li>
+                    <li>{{foto.listitem}}</li>
                    </ul> 
                 </div>
             </div>
-            <div class="col-4">
-                <img class="w-100" src="../../assets\photo\images\serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="">
-
-            </div>
-            <div class="col-4">
-                <img class="w-100" src="../../assets\photo\images\serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="">
-
-            </div>
+ 
        </div>
 
     </section>
@@ -83,7 +81,6 @@ export default{
 }
 
 .info:hover{
-    /* gradiente preso dallo style generale */
     transition: 0.5s;
     scale: 1.1;
 }
