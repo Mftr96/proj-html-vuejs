@@ -4,7 +4,7 @@ import store from '../data/store.js'
 export default{
     data(){
         return{
-
+            store
         }
     },
     methods:{

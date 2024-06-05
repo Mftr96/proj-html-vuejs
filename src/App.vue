@@ -12,7 +12,9 @@ export default {
         AppFooter,
     },
     data (){
-        store
+        return{
+            store
+        }
     },
     methods:{
 

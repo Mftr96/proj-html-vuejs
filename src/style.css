@@ -9,3 +9,27 @@ strong{
   color: rgb(0, 217, 166);
 }
 
+hr {
+  width: 0.8rem;
+  padding: 0.2rem 0;
+  border: 0;
+}
+
+.separator {
+  width: 3rem;
+  padding: 0.2rem 0;
+  border: 0;
+}
+hr,
+.separator,
+button,
+.bgImg,.info:hover {
+  
+  background: linear-gradient(
+      271deg,
+      rgba(122, 222, 108, 1) 0%,
+      rgba(88, 221, 125, 1) 60%,
+      rgba(0, 217, 166, 1) 100%
+  );
+
+}

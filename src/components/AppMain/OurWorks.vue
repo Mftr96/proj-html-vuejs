@@ -4,7 +4,9 @@
 import store from '../../data/store.js'
 export default {
     data (){
-        store
+        return{
+            store
+        }
     },
     methods:{
 
@@ -39,12 +41,12 @@ export default {
             <div class="card border-0 gx-1  col-3">
                 <div class=" w-100"></div>
                 <img src="../../assets\photo\images\ina-soulis-227104-unsplash-1024x1024.jpg" alt="">
-                <div class="z-1 m-2  ">
+                <!-- <div class="z-1 m-2  ">
                     <h2>The Basket of Flowers</h2>
                     <span class="text-dark ">BRANDING</span>
                     <i class="fa-solid fa-circle"></i>
                     <span class="text-dark ">MARKETING</span>
-                </div>
+                </div> -->
             </div>
             <div class="card border-0 gx-1 col-3">
                 <img src="../../assets\photo\images\sunisa-misa-531163-unsplash-1024x1024.jpg" alt="">

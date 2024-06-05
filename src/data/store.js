@@ -1,6 +1,7 @@
 import { reactive } from 'vue';
 
 const ilMioOggettone = {
+    //link foto card per il ciclo v-for
     urlPhotoCard:[
         "../../assets\photo\images/ina-soulis-227104-unsplash-1024x1024.jpg",
         "../../assets\photo\images/sunisa-misa-531163-unsplash-1024x1024.jpg",
