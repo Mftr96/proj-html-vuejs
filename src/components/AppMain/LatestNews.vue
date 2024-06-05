@@ -1,9 +1,13 @@
 <script>
 import store from '../../data/store.js'
+// da risolvere l'importazione dell'helper
+import helper from '../../data/helper.js'
 export default{
     data(){
         return{
             store,
+            helper,
+            
             //link foto per immagini card
             UrlPhoto:[
                 {percorso:"../../assets/photo/images/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg",
@@ -23,6 +27,7 @@ export default{
             let risultato = new URL(`../../assets/photo/` +path, import.meta.url);
             return risultato.href;
         },
+        
 
     },
     mounted(){

@@ -3,7 +3,9 @@
 import store from "../../data/store.js";
 export default {
 	data() {
-		store;
+		return{
+			store,
+		}
 	},
 	methods: {},
 	mounted() {},
