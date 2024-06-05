@@ -12,6 +12,7 @@ import NewProjects from './AppMain/NewProjects.vue'
 
 
 export default {
+    name:'AppMain',
     components:{
         OurWorks,
         OurResults,

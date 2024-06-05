@@ -3,6 +3,7 @@
 //importazione dati dallo store
 import store from '../../data/store.js'
 export default {
+    name:'OurWorks',
     data (){
         return{
             store

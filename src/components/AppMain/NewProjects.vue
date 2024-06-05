@@ -3,6 +3,17 @@
 export default{
     name:'NewProjects',
     data(){
+        return{
+            urlLoghi:[
+                "images\client-1-2x.png",
+                "/images\client-3-2x.png",
+                "\images\client-4-2x.png",
+                "/images\client-5-2x.png",
+                "/images\client-7-2x.png",
+                "/images\client-9-2x.png",
+
+            ]
+        }
 
     },
     methods:{
@@ -39,10 +50,10 @@ export default{
                         </button>
                     </a>
                 </div>
-
-
             </div>
         </div>
+        <!-- CREARE FASCIA LOGHI -->
+        
     </section>
  
 </template>
