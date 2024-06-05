@@ -1,7 +1,15 @@
 <script>
 export default {
 	name: "OurMissions",
-	components: {},
+	data(){
+
+	},
+	methods:{
+
+	},
+	mounted(){
+
+	},
 };
 </script>
 

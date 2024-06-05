@@ -3,6 +3,7 @@ import store from '../../data/store.js'
 // da risolvere l'importazione dell'helper
 import helper from '../../data/helper.js'
 export default{
+    name:'LatestNews',
     data(){
         return{
             store,

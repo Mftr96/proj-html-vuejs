@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'LinkList',
+  name:'Links',
   data() {
     return {
       links: [

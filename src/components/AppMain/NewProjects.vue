@@ -1,5 +1,17 @@
 <!-- qui JS  -->
 <script>
+export default{
+    name:'NewProjects',
+    data(){
+
+    },
+    methods:{
+
+    },
+    mounted(){
+
+    },
+}
 
 
 </script>

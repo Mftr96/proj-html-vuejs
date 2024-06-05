@@ -66,5 +66,5 @@ STRUTTURAZIONE COMPONENTI:
 qui viene riassunta come sono stati pensati e strutturati i componenti del sito:
 
 
-OurWorks: viene identificata la sezione  prima 
+OurWorks: viene identificata la sezione  
 

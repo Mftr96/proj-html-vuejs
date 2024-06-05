@@ -6,6 +6,7 @@ import CaroselHeader from './AppHeader/CaroselHeader.vue';
 
 
 export default {
+  name:'AppHeader',
   components: {
     Links,
     Jumbtron,
