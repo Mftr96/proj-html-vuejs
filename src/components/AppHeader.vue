@@ -52,11 +52,6 @@ export default {
             <div class="background"></div>
             PURCHASE
           </button>
-          
-      
-
-
-
         </span>
       </div>
     </nav>
