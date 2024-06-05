@@ -23,7 +23,8 @@ hr {
 hr,
 .separator,
 button,
-.bgImg,.info:hover {
+.bgImg,.info:hover,
+.photo-box:hover .info {
   
   background: linear-gradient(
       271deg,
