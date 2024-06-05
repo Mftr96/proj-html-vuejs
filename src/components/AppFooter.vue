@@ -1,5 +1,19 @@
 <!-- qui JS  -->
 <script>
+import store from '../data/store.js'
+export default{
+    data(){
+        return{
+
+        }
+    },
+    methods:{
+
+    },
+    mounted(){
+
+    }
+}
 
 
 </script>
@@ -90,7 +104,9 @@
 li{
     list-style: none;
 }
-
+a:hover{
+    color: rgb(0, 216, 165)!important;
+}
 
 .lower-footer{
 background: linear-gradient(
