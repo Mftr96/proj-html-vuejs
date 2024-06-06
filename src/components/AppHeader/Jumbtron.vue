@@ -41,7 +41,7 @@
             <div class="col-7">
                 <CaroselHeader/>
                 <div class="card-body">
-                    <img src="../../assets/photo/Group-36-2x.png" class="First-photo" alt="...">
+                    <img src="../../assets/photo/imagesGroup-36-2x.png" class="First-photo" alt="...">
                 </div>
             </div>
         </div>

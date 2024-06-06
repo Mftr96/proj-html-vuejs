@@ -29,7 +29,8 @@ export default {
 			<div class="row gap-5 justify-content-end">
 				<div
 					class="my-card col-5 p-5 border border-1 border-secondary-emphasis rounded-4 shadow">
-					<i class="fa-solid fa-gauge-simple-high display-4"></i>
+					<!-- <i class="fa-solid fa-gauge-simple-high display-4"></i> -->
+					<i class="fa-solid fa-gauge-simple-high fs-1 "></i>
 					<h2 class="my-4">Speed Optimization</h2>
 					<p>
 						Far far away, behind the word mountains, far from the countries Vokalia
@@ -39,7 +40,7 @@ export default {
 
 				<div
 					class="my-card col-5 p-5 border border-1 border-secondary-emphasis rounded-4 shadow">
-					<i class="fa-solid fa-cloud display-4"></i>
+					<i class="fa-solid fa-cloud fs-1"></i>
 					<h2 class="my-4">Cloud Solutions</h2>
 					<p>
 						Far far away, behind the word mountains, far from the countries Vokalia
@@ -47,19 +48,18 @@ export default {
 					</p>
 				</div>
 
-				<div
-					class="my-card col-5 p-5 border border-1 border-secondary-emphasis rounded-4 shadow">
-					<i class="fa-solid fa-tablet-screen-button display-4"></i>
-					<h2 class="my-4">Website Design</h2>
-					<p>
-						Far far away, behind the word mountains, far from the countries Vokalia
-						Separated...
-					</p>
+				<div class="my-card col-5 p-5 border border-1 border-secondary-emphasis rounded-4 shadow">
+					<i class="fa-solid fa-tablet-screen-button fs-1"></i>
+					 <h2 class="my-4">Website Design</h2>
+					 <p>
+					 	Far far away, behind the word mountains, far from the countries Vokalia
+					 	Separated...
+					 </p>
 				</div>
 
 				<div
 					class="my-card col-5 p-5 border border-1 border-secondary-emphasis rounded-4 shadow">
-					<i class="fa-solid fa-stopwatch display-4"></i>
+					<i class="fa-solid fa-stopwatch fs-1"></i>
 					<h2 class="my-4">Online Marketing</h2>
 					<p>
 						Far far away, behind the word mountains, far from the countries Vokalia

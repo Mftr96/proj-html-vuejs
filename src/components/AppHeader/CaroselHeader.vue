@@ -42,7 +42,7 @@ export default {
         },
 
         getImg(path) {
-            let risultato = new URL("../../assets/photo/" + path, import.meta.url);
+            let risultato = new URL("../../assets/photo/images" + path, import.meta.url);
             return risultato.href;
         },
     },
@@ -53,35 +53,19 @@ export default {
 
 </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <template>
   <div class="carousel-container">
         <button class="carousel-button left" @click="prevSlide">&#10094;</button>
         <div class="carousel">
             <div class="carousel-slides" :style="carouselStyle">
                 <div class="carousel-slide" v-for="slide in slides">
-                    <img :src="getImg (slide.image)" :alt="slide.text" class="carousel-image" />
+                    <img :src="getImg(slide.image)" :alt="slide.text" class="carousel-image" />
                     <div class="carousel-text">{{ slide.title }}</div>
                 </div>
             </div>
         </div>
         <button class="carousel-button right" @click="nextSlide">&#10095;</button>
     </div>
-
-
-
-
 </template>
 
 

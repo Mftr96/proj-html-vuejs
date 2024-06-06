@@ -17,12 +17,12 @@ export default {
 	<div class="ourMissBox row mx-0 justify-content-center">
 		<div class="ourMissBoxLeft col-5 position-relative">
 			<img
-				src="../../assets/photo/businesswoman-analysing-document-P8WSNMC-1024x820.jpg"
+				src="../../assets/photo/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg"
 				class="w-100 rounded-4 position-relative z-2 shadow-lg" />
 
 			<div class="bgImg w-100 position-absolute z-1 ms-3 rounded-5 px-1">
 				<img
-					src="../../assets/photo/busy-architect-PYVKWM4-1024x872.jpg"
+					src="../../assets/photo/images/busy-architect-PYVKWM4-1024x872.jpg"
 					class="w-100 rounded-5 position-relative z-0 opacity-25" />
 			</div>
 		</div>

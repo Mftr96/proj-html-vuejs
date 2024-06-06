@@ -35,21 +35,5 @@ button,
 
 }
 
-.background {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s;
-  z-index: -1;
-  border-radius: 50%;
-  background: linear-gradient(
-      271deg,
-      rgba(65, 65, 65, 1) 0%,
-      rgba(47, 47, 47, 1) 50%,
-      rgba(18, 20, 19, 1) 100%
-  );
 
-}
+

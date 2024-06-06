@@ -94,7 +94,7 @@ export default {
 }
 
 .myBg {
-	background-image: url(../../assets/photo/person-with-long-curly-hair-PZ99QM2-2x.jpg);
+	background-image: url(../../assets/photo/images/person-with-long-curly-hair-PZ99QM2-2x.jpg);
 	background-size: cover;
 	background-position-x: right;
 	right: -4rem;

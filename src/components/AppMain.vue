@@ -14,10 +14,14 @@ import NewProjects from './AppMain/NewProjects.vue'
 export default {
     name:'AppMain',
     components:{
+        OurSolutions,
+        OurMissions,
         OurWorks,
         OurResults,
-        NewProjects,
+        OurPrices,
+        ClientsQuotes,
         LatestNews,
+        NewProjects,
        
     },
     data (){
@@ -41,6 +45,7 @@ export default {
     <OurMissions/>
     <OurWorks/>
     <OurResults/>
+    <OurPrices/>
     <NewProjects/>
     <ClientsQuotes/>
     <LatestNews/>
