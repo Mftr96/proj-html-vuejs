@@ -2,6 +2,7 @@
 export default {
 	name: "OurMissions",
 	data(){
+		return{}
 
 	},
 	methods:{

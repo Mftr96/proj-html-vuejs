@@ -9,7 +9,7 @@ export default {
 	<div class="myBg mt-5">
 		<div class="clientsQuotesBox row mx-0 justify-content-center">
 			<div class="col-7 text-center py-5 px-4">
-				<i class="fa-solid fa-quote-left display-2"></i>
+				<i class="fa-solid fa-quote-left fs-1"></i>
 
 				<p class="fs-3 fst-italic mt-5 text-white">
 					When it comes to barbequing, there are two main schools of thought for the techniques
@@ -18,7 +18,7 @@ export default {
 
 				<div class="circledBox rounded-circle border border-4 border-white mb-4 mx-auto">
 					<img
-						src="../../assets/photo/businesswoman-analysing-document-P8WSNMC-1024x820.jpg"
+						src="../../assets/photo/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg"
 						class="w-100 h-100 rounded-circle object-fit-cover" />
 				</div>
 				<div class="mb-1">
