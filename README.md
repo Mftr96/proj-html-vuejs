@@ -67,5 +67,6 @@ qui viene riassunta come sono stati pensati e strutturati i componenti del sito:
 
 
 OurWorks: viene identificato il tag section  tramite id "OurWorks;
+viene creato un primo div nel quale viene inserito il materiale testuale in due sezioni, la sezione in grassetto e la sezione descrittiva
 
 
