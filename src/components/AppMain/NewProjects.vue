@@ -5,19 +5,22 @@ export default{
     data(){
         return{
             urlLoghi:[
-                "images\client-1-2x.png",
-                "/images\client-3-2x.png",
-                "\images\client-4-2x.png",
-                "/images\client-5-2x.png",
-                "/images\client-7-2x.png",
-                "/images\client-9-2x.png",
+                "/images/client-1-2x.png",
+                "/images/client-3-2x.png",
+                "/images/client-4-2x.png",
+                "/images/client-5-2x.png",
+                "/images/client-7-2x.png",
+                "/images/client-9-2x.png",
 
             ]
         }
 
     },
     methods:{
-
+        getImg(path) {
+            let risultato = new URL(`../../assets/photo/` +path, import.meta.url);
+            return risultato.href;
+        },
     },
     mounted(){
 
@@ -28,8 +31,9 @@ export default{
 </script>
 <!-- QUI HTML -->
 <template>
-    <section id="NewProject">
-        <div class="row justify-content-center gap-4">
+    <section  id="NewProjects">
+        <!-- SEZIONE CARD  -->
+        <div class=" row justify-content-center gap-4 mb-5 ">
             <div class="col-5 border text-center rounded-4  square-left">
                 <p class="mt-5">are you ready?</p>
                 <h3 class="text-light mb-5">Start a new project</h3>
@@ -43,8 +47,7 @@ export default{
                 <h3 class="text-light mb-5">Let's Talk About Work</h3>
                 <div class="mb-5">
                     <a href="">
-                        <!-- chiedere bottone a Fabio  -->
-                        <button class="btn rounded-5 border-0 text-white px-5 py-3 shadow-lg mt-4 fs-6">
+                            <button class="btn rounded-5 border-0 text-white px-5 py-3 shadow-lg mt-4 fs-6">
                         <div class="background"></div>
                         READ MORE
                         </button>
@@ -52,8 +55,18 @@ export default{
                 </div>
             </div>
         </div>
-        <!-- CREARE FASCIA LOGHI -->
-        
+        <!--    LOGHI -->
+        <div id="logos">
+            <div class="row">
+                <div class="col-10 my-0 mx-auto">
+                    <div class="row justify-content-center align-items-center ">
+                        <div v-for="immagine in urlLoghi" class="col-2">
+                            <img :src="getImg(immagine)" :alt="immagine">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
  
 </template>
@@ -123,17 +136,9 @@ button:hover .background {
     width: 150%;
     height: 400%;
 }
-hr,
-.separator,
-button,
-.bgImg {
-    
-    background: linear-gradient(
-        271deg,
-        rgba(65, 65, 65, 1) 0%,
-        rgba(47, 47, 47, 1) 50%,
-        rgba(18, 20, 19, 1) 100%
-    );
+
+#logos,#NewProjects{
+background-color: rgba(249,249,249,1);
 }
 
 </style>
