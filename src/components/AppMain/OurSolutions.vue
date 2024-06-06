@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-	<div class="ourSolBox row mx-0">
+	<div class="ourSolBox row mx-0 ">
 		<div class="ourSolBoxLeft col-4 ps-0 mt-5">
 			<p class="fw-bold py-4 display-4">
 				We Are Here To Make Your <span>Website</span> Look More <span>Elegant</span> And
@@ -74,6 +74,7 @@ export default {
 <style scoped>
 .ourSolBox {
 	margin-bottom: 10rem;
+	margin-top: 30rem;
 }
 
 hr {
