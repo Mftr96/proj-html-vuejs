@@ -32,7 +32,7 @@ export default {
           <span class="me-2">(001) 88451234</span>
           <span>88455438</span>
         </div>
-        <div class="col-7  "></div>
+        <div class="col-7"></div>
         <div class="col-2 d-flex align-items-center justify-content-end me-2 p-0   ">
           <i class="fa-brands fa-facebook-f "></i>
           <i class="fa-brands fa-x-twitter ms-3 me-3"></i>
@@ -53,7 +53,7 @@ export default {
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <Links/>
+        <Links />
         <span class="navbar-text">
           <button class="btn rounded-5 text-white px-5 py-3 shadow-lg fs-7">
             <div class="background"></div>
@@ -180,13 +180,14 @@ button:hover .background {
 
 
 .navbar {
+  top:5%;
+  z-index: 4;
   position: fixed;
-  z-index: 3;
   width: 100%;
 }
 
 .number {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 3;
   background-color: #393939;
