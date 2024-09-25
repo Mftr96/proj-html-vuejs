@@ -67,9 +67,9 @@ export default {
           <div class="input-group">
             <input type="text" class="form-control border-bottom border-3" placeholder="Cerca..." aria-label="Search"
               aria-describedby="button-search">
-            <button class="btn btn-primary" type="button" id="button-search">
+            <div class="" type="button" id="button-search">
               <i class="fas fa-search"></i>
-            </button>
+            </div>
           </div>
         </form>
       </div>

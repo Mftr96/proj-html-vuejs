@@ -47,7 +47,7 @@ export default {
 	<div v-for="(slide, i) in slides" :class="checkActive(i)" class="jumboBox mb-3 slide">
 		<div class="row align-items-center mx-0 overflow-hidden">
 			<div class="col-5 position-relative">
-				<p class="green text-start">17 years of experiance</p>
+				<p class="green text-start">17 YEARS OF EXPERIENCE</p>
 
 				<div class="col-9">
 					<p class="fw-bold py-4 display-3">
@@ -79,8 +79,8 @@ export default {
 					>
 					<a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Twitter</a>
 					<a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Youtube</a>
-				<button @click="prev()"><i class="fa-solid fa-arrow-left"></i></button>
-				<button @click="next()"><i class="fa-solid fa-arrow-right"></i></button>
+				<button class="rounded-circle p-2 me-3" @click="prev()"><i class="fa-solid fa-arrow-left "></i></button>
+				<button class="rounded-circle p-2" @click="next()"><i class="fa-solid fa-arrow-right "></i></button>
 				</span>
 
 			</div>
@@ -96,7 +96,6 @@ export default {
 .green {
 	font-size: 20px;
 	color: #00d9a6;
-	font-family: quicksand;
 	font-weight: 500;
 	line-height: 120%;
 	letter-spacing: 7px;
