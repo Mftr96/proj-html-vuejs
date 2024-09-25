@@ -8,7 +8,7 @@ export default {
   components: {
     Links,
     Jumbotron,
-    
+
   },
 
 
@@ -27,15 +27,16 @@ export default {
 <template>
   <header>
     <div id="home" class="number">
-      <div class="row mx-0">
-        <div class="col-6 text-center my-2">
-          <i class="fa-solid fa-phone"></i>
-          (001) 88451234 88455438
+      <div class="row justify-content-around p-2  mx-0 text-light">
+        <div class="col-2  ms-2  ">
+          <span class="me-2">(001) 88451234</span>
+          <span>88455438</span>
         </div>
-        <div class="col-6 text-center">
-          <i class="fa-brands fa-facebook-f m-2"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-pinterest-p m-2"></i>
+        <div class="col-7  "></div>
+        <div class="col-2 d-flex align-items-center justify-content-end me-2 p-0   ">
+          <i class="fa-brands fa-facebook-f "></i>
+          <i class="fa-brands fa-x-twitter ms-3 me-3"></i>
+          <i class="fa-brands fa-pinterest-p  "></i>
         </div>
       </div>
     </div>
@@ -44,7 +45,7 @@ export default {
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand me-auto" href="#">
-          <img class="logo" src="../assets/photo/cropped-Group-39-2x.png" alt="Logo">
+          <img class="logo" src="../assets/photo/images/cropped-Group-39-2x.png" alt="Logo">
         </a>
 
         <!-- Pulsante Toggle -->
@@ -53,17 +54,17 @@ export default {
           <span class="navbar-toggler-icon"></span>
         </button>
         <Links/>
-          <span class="navbar-text">
-            <button class="btn rounded-5 text-white px-5 py-3 shadow-lg fs-7">
-              <div class="background"></div>
-              ACQUISTA
-            </button>
-            <button class="btn btn-primary m-2" type="button" data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-              <i class="fas fa-search"></i>
-            </button>
-          </span>
-        </div>
+        <span class="navbar-text">
+          <button class="btn rounded-5 text-white px-5 py-3 shadow-lg fs-7">
+            <div class="background"></div>
+            ACQUISTA
+          </button>
+          <button class="btn btn-primary m-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <i class="fas fa-search"></i>
+          </button>
+        </span>
+      </div>
     </nav>
 
     <div class="offcanvas offcanvas-fullscreen" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -83,7 +84,7 @@ export default {
         </form>
       </div>
     </div>
-  <Jumbotron/>
+    <Jumbotron />
   </header>
 
 
@@ -95,8 +96,6 @@ export default {
 
 
 <style scoped>
-
-
 .offcanvas-fullscreen {
   width: 100%;
   height: 100%;
@@ -182,14 +181,14 @@ button:hover .background {
 
 .navbar {
   position: fixed;
-    z-index: 3;
-    width: 100%;
+  z-index: 3;
+  width: 100%;
 }
 
 .number {
-  position: fixed;
+  position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: #393939;
   width: 100%;
 }

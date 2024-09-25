@@ -1,0 +1,25 @@
+tenere come riferimento il README
+punti della presentazione:
+1-presentazione del sito in generale e strutturazione del sito(breve panoramica del sito)-Fabio 
+2- (macrocomponenti e relativi micro-componenti) e divisione componenti (Parte Gabriele, poi Matteo e  poi Fabio)
+(non abbiamo diviso subito tutti i componenti, quando uno finisce un componente va
+ al componente successivo a seconda della difficoltà che riscontra) 
+3-elenco difficoltà e relative soluzioni  
+4- considerazioni finali e domande 
+
+particolari difficoltà riscontrate nella costruzione del sito
+OurWorks,:lavoro di animazione, gestione ciclo sulle immagini 
+ 
+OurResults,OurMissions:gestione z-index, filtro verde in combinazione con le scritte 
+
+CarouselHeader:gestione e dimensionamento immagini, ciclo v-for 
+
+OurMissions:posizionatura del margine, 
+
+Stilizzatura button, cambio colore dal centro 
+
+lavoro ombreggiatura card
+
+pulsante scroll to top
+
+
